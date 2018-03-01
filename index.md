@@ -14,7 +14,7 @@ Here is the list of the available commands you can execute. <br>
 
 ```markdown
 
-# Generals
+# General
 
 - .ping: Measures the milliseconds elapsed while sending a message. 
 
@@ -23,13 +23,14 @@ Here is the list of the available commands you can execute. <br>
 - .follow <Username>: Starts to follow specified player's activities in the current channel: 
 PiwaBot will send a message (in the channel where the command was executed) when he'll get at least an S or more than 100 pp. It'll also send a message when there's a new profile's recent activity.
 
-- .pp <Beatmap Link> (Mods): Calculates the pp of the specified beatmap. Optionally you can specify the mods writing them after the link, splitted by a space, using their codes:
+- .unfollow <Username>: Stops following specified player's activities in the current channel.
+- .unfollowall: Stops following the activities of all users previously specified, in the current channel.
+
+- .pp <Beatmap Link> (Mods): Calculates the pp of the specified beatmap. Optionally you can specify the mods typing them after the link, splitted by a space, using their abbreviations:
   - EZ: Easy, NF: NoFail, HT: HalfTime, HR: HardRock, HD: Hidden, DT: DoubleTime, NC: NightCore, FL: Flashlight, SO: SpunOut
 
-- .orb: Searches for a random beatmap, and give it to you when PiwaBot'll find one.
-- .osustats <Username>: Gives info, such as ranking and performance, about a specified player.
-- .unfollow <Username>: Stops to follow specified player's activities in the current channel.
-- .unfollowall: Stops to follow the activities of all previously specified users in the current channel.
+- .orb: Searches for a random beatmap, and gives it to you when the bot finds one.
+- .osustats <Username>: Gives osu! stats of a specified player.
 
 More commands will be introduced soon!
 ```
