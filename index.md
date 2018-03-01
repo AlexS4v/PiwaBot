@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+## PiwaBot
 
-You can use the [editor on GitHub](https://github.com/Alexs4v/PiwaBot/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+It is a discord bot, made by players for players, that provides many commands for the game osu! Our project is not affiliated with [**ppy**](https://ppy.sh). Currently PiwaBot is running on a low cost server, but in the future, if it'll be necessary, we'll try to expand our infrastructure. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It is written in C# for the framework .Net Core, using a custom Discord API wrapper and other external libraries:
+* [OppaiSharp](https://github.com/HoLLy-HaCKeR/OppaiSharp)
+* [Newtonsoft](https://github.com/JamesNK/Newtonsoft.Json)
+* [System.Drawing.Common](https://www.nuget.org/packages/System.Drawing.Common/).
 
-### Markdown
+### Commands
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Here is the list of the available commands you can execute. <br>
+***Note:*** *Please, wait one second before sending another command, or your command won't be executed.*
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Generals
 
-- Bulleted
-- List
+- ping: Measures the milliseconds elapsed while sending a message. 
 
-1. Numbered
-2. List
+# osu!
 
-**Bold** and _Italic_ and `Code` text
+- .follow <Username>: Starts to follow specified player's activities in the current channel: 
+PiwaBot will send a message (in the channel where the command was executed) when he'll get at least an S or more than 100 pp. It'll also send a message when there's a new profile's recent activity.
 
-[Link](url) and ![Image](src)
+- .pp <Beatmap's Link> (Mods): Calculate the pp of the specified beatmap. Optionally you can specify the mods writing them, splitted by a space, using their codes:
+  - EZ: Easy, NF: NoFail, HT: HalfTime, HR: HardRock, HD: Hidden, DT: DoubleTime, NC: NightCore, FL: Flashlight, SO: SpunOut
+
+- .orb: Searches for a random beatmap, and give it to you when PiwaBot'll find one.
+- .osustats <Username>: Gives info, such as ranking and performance, about a specified player.
+- .unfollow <Username>: Stops to follow specified player's activities in the current channel.
+- .unfollowall: Stops to follow the activities of all previously specified users in the current channel.
+
+More commands will be introduced soon!
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Bugs
 
-### Jekyll Themes
+Because PiwaBot is currently in a beta stage, bug can often be encountered. You're are able to report them in the official github [repository](https://github.com/Alexs4v/PiwaBot/issues).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Alexs4v/PiwaBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Support us!
 
-### Support or Contact
+We are just students and we can't afford powerful servers when they'll be necessary. If you like what we did, you can support us throught donations. 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+*Not available yet.*
