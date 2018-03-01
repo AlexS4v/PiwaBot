@@ -20,9 +20,7 @@ Here is the list of the available commands you can execute. <br>
 
 # osu!
 
-- .follow <Username>: Starts to follow specified player's activities in the current channel: 
-PiwaBot will send a message (in the channel where the command was executed) when he'll get at least an S or more than 100 pp. It'll also send a message when there's a new profile's recent activity.
-
+- .follow <Username>: Starts following specified player's activities in the current channel, for example: recent activities, S ranks and scores that are worth more than 100pp. 
 - .unfollow <Username>: Stops following specified player's activities in the current channel.
 - .unfollowall: Stops following the activities of all users previously specified, in the current channel.
 
