@@ -27,6 +27,7 @@ Here is the list of the available commands you can execute. <br>
   - EZ: Easy, NF: NoFail, HT: HalfTime, HR: HardRock, HD: Hidden, DT: DoubleTime, NC: NightCore, FL: Flashlight, SO: SpunOut
 
 - .orb: Searches for a random beatmap, and gives it to you when the bot finds one.
+- .orb-u: Searches for a ranked or unranked beatmap, and gives it to you when the bot finds one.
 - .osustats <Username>: Gives osu! stats of a specified player.
 
 More commands will be introduced soon!
