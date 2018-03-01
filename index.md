@@ -2,7 +2,7 @@
 
 PiwaBot is a discord bot, made by players for players, that provides many commands for the game osu! Our project is not affiliated with [**ppy**](https://ppy.sh). Currently, it's running on a low cost server, but in the future, if it'll be necessary, we'll try to expand our infrastructure. 
 
-It is written in C# for the framework .Net Core, using a custom Discord API wrapper and other external libraries:
+It's written in C# for the framework .Net Core, using a custom Discord API wrapper and other external libraries:
 * [OppaiSharp](https://github.com/HoLLy-HaCKeR/OppaiSharp)
 * [Newtonsoft](https://github.com/JamesNK/Newtonsoft.Json)
 * [System.Drawing.Common](https://www.nuget.org/packages/System.Drawing.Common/).
