@@ -1,6 +1,6 @@
-## PiwaBot
+## Introduction
 
-It is a discord bot, made by players for players, that provides many commands for the game osu! Our project is not affiliated with [**ppy**](https://ppy.sh). Currently PiwaBot is running on a low cost server, but in the future, if it'll be necessary, we'll try to expand our infrastructure. 
+PiwaBot is a discord bot, made by players for players, that provides many commands for the game osu! Our project is not affiliated with [**ppy**](https://ppy.sh). Currently, it's running on a low cost server, but in the future, if it'll be necessary, we'll try to expand our infrastructure. 
 
 It is written in C# for the framework .Net Core, using a custom Discord API wrapper and other external libraries:
 * [OppaiSharp](https://github.com/HoLLy-HaCKeR/OppaiSharp)
@@ -16,14 +16,14 @@ Here is the list of the available commands you can execute. <br>
 
 # Generals
 
-- ping: Measures the milliseconds elapsed while sending a message. 
+- .ping: Measures the milliseconds elapsed while sending a message. 
 
 # osu!
 
 - .follow <Username>: Starts to follow specified player's activities in the current channel: 
 PiwaBot will send a message (in the channel where the command was executed) when he'll get at least an S or more than 100 pp. It'll also send a message when there's a new profile's recent activity.
 
-- .pp <Beatmap's Link> (Mods): Calculate the pp of the specified beatmap. Optionally you can specify the mods writing them, splitted by a space, using their codes:
+- .pp <Beatmap Link> (Mods): Calculates the pp of the specified beatmap. Optionally you can specify the mods writing them after the link, splitted by a space, using their codes:
   - EZ: Easy, NF: NoFail, HT: HalfTime, HR: HardRock, HD: Hidden, DT: DoubleTime, NC: NightCore, FL: Flashlight, SO: SpunOut
 
 - .orb: Searches for a random beatmap, and give it to you when PiwaBot'll find one.
