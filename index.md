@@ -13,7 +13,6 @@ Here is the list of the available commands you can execute. <br>
 ***Note:*** *Please, wait one second before sending another command, or your command won't be executed.*
 
 ```markdown
-
 # General
 
 - .ping: Measures the milliseconds elapsed while sending a message. 
