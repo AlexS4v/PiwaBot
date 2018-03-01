@@ -37,10 +37,12 @@ More commands will be introduced soon!
 
 ### Bugs
 
-Because PiwaBot is currently in a beta stage, bug can often be encountered. You're are able to report them in the official github [repository](https://github.com/Alexs4v/PiwaBot/issues).
+PiwaBot is currently in a beta stage, so bugs can often be encountered. You're are able to report them in the official github [repository](https://github.com/Alexs4v/PiwaBot/issues).
 
 ### Support us!
 
-We are just students and we can't afford powerful servers when they'll be necessary. If you like what we did, you can support us throught donations. 
+We are just students and we can't afford powerful servers if it'll be necessary. If you like what we do, you can support us throught donations. 
 
 *Not available yet.*
+
+### [Invite PiwaBot to your discord server!](https://discordapp.com/api/oauth2/authorize?client_id=402190218679287811&permissions=519232&scope=bot)
