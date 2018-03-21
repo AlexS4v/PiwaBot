@@ -17,15 +17,14 @@ Here is the list of the available commands you can execute. <br>
 
 - .ping: Measures the milliseconds elapsed while sending a message.
 
-- .poll-create | .pc <Question> (Answers...): Creates a poll.
-- .poll-vote | .pv <Poll ID> <Answer Number>: Votes an answer of a poll using its ID. 
+- .poll-create | .pc <"Question"> (<"Answer">...): Creates a poll.
 - .poll-vote | .pv <Answer Number>: Votes an answer of the active poll in the current guild. 
 - .poll-close | .pcl: Closes the active poll in the current guild. You must to be its creator or an administrator.
 
 # osu!
 
-- .follow <Username>: Starts following specified player's activities in the current channel, for example: recent activities, S ranks and scores that are worth more than 100pp. 
-- .unfollow <Username>: Stops following specified player's activities in the current channel.
+- .follow <"Username">: Starts following specified player's activities in the current channel, for example: recent activities, S ranks and scores that are worth more than 100pp. 
+- .unfollow <"Username">: Stops following specified player's activities in the current channel.
 - .unfollowall: Stops following the activities of all users previously specified in the current channel.
 - .following: Displays all followed users in the current channel.
 
@@ -34,7 +33,7 @@ Here is the list of the available commands you can execute. <br>
   
 - .orb: Searches for a ranked beatmap, and gives it to you when the bot finds one.
 - .orb-u: Searches for a ranked or unranked beatmap, and gives it to you when the bot finds one.
-- .osustats <Username>: Gives osu! stats of a specified player.
+- .osustats <"Username">: Gives osu! stats of a specified player.
 
 More commands will be introduced soon!
 ```
