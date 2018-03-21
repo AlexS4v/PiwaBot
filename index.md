@@ -15,18 +15,24 @@ Here is the list of the available commands you can execute. <br>
 ```markdown
 # General
 
-- .ping: Measures the milliseconds elapsed while sending a message. 
+- .ping: Measures the milliseconds elapsed while sending a message.
+
+- .poll-create | .pc <Question> (Answers...): Creates a poll.
+- .poll-vote | .pv <Poll ID> <Answer Number>: Votes an answer of a poll using its ID. 
+- .poll-vote | .pv <Answer Number>: Votes an answer of the active poll in the current guild. 
+- .poll-close | .pcl: Closes the active poll in the current guild. You must to be its creator or an administrator.
 
 # osu!
 
 - .follow <Username>: Starts following specified player's activities in the current channel, for example: recent activities, S ranks and scores that are worth more than 100pp. 
 - .unfollow <Username>: Stops following specified player's activities in the current channel.
-- .unfollowall: Stops following the activities of all users previously specified, in the current channel.
+- .unfollowall: Stops following the activities of all users previously specified in the current channel.
+- .following: Displays all followed users in the current channel.
 
-- .pp <Beatmap Link> (Mods): Calculates the pp of the specified beatmap. Optionally you can specify the mods typing them after the link, splitted by a space, using their abbreviations:
+- .pp <Beatmap Link> (Mods...): Calculates the pp of the specified beatmap. Optionally you can specify the mods typing them after the link, splitted by a space, using their abbreviations:
   - EZ: Easy, NF: NoFail, HT: HalfTime, HR: HardRock, HD: Hidden, DT: DoubleTime, NC: NightCore, FL: Flashlight, SO: SpunOut
-
-- .orb: Searches for a random beatmap, and gives it to you when the bot finds one.
+  
+- .orb: Searches for a ranked beatmap, and gives it to you when the bot finds one.
 - .orb-u: Searches for a ranked or unranked beatmap, and gives it to you when the bot finds one.
 - .osustats <Username>: Gives osu! stats of a specified player.
 
