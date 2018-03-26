@@ -7,7 +7,7 @@ It's written in C# for the framework .Net Core, using a custom Discord API wrapp
 * [Newtonsoft](https://github.com/JamesNK/Newtonsoft.Json)
 * [System.Drawing.Common](https://www.nuget.org/packages/System.Drawing.Common/).
 
-## If you need support, [join our discord server].(https://discord.gg/4C2rR8D)
+## If you need support, [join our discord server](https://discord.gg/4C2rR8D).
 
 ### Commands
 
