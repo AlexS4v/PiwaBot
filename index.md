@@ -1,6 +1,6 @@
 ## Alert!
 
-PiwaBot is currently offline! It will remain offline as long as the osu servers! won't be back online.
+PiwaBot is currently offline! It will remain offline as long as the osu! servers won't be back online.
 
 ## Introduction
 
