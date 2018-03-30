@@ -1,3 +1,7 @@
+## Alert!
+
+PiwaBot is currently offline! It will remain offline as long as the osu servers! won't be back online.
+
 ## Introduction
 
 PiwaBot is a discord bot, made by players for players, that provides many commands for the game osu! Our project is not affiliated with [**ppy**](https://ppy.sh). Currently, it's running on a low cost server, but in the future, if it'll be necessary, we'll try to expand our infrastructure. 
