@@ -1,5 +1,6 @@
 
 ## PiwaBot will be offline until further notice. [Join our discord server](https://discord.gg/4C2rR8D).
+Don't worry, it will back soon.
 
 ## Introduction
 
@@ -43,7 +44,7 @@ More commands will be introduced soon!
 
 ### Bugs
 
-PiwaBot is currently in a beta stage, so bugs can often be encountered. You're are able to report them in the official github [repository](https://github.com/Alexs4v/PiwaBot/issues).
+PiwaBot is currently in a beta stage, so bugs can often be encountered. You are able to report them in the official github [repository](https://github.com/Alexs4v/PiwaBot/issues).
 
 ### Support us!
 
