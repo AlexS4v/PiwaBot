@@ -1,5 +1,5 @@
 
-## PiwaBot will be offline for about 12 hours (from now 18:50 GMT). [Join our discord server](https://discord.gg/4C2rR8D).
+## PiwaBot will be offline until further notice. [Join our discord server](https://discord.gg/4C2rR8D).
 
 ## Introduction
 
